@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===========================================================================
+                        Software Engineering Ethics Debater (SWED) Source Code
+                           Copyright (C) 2019 Nancy Green
+
+Software Engineering Ethics Debater (SWED) is free software: you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SWED Source Code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SWED Source Code.  If not, see <http://www.gnu.org/licenses/>.
+
+If you have questions concerning this license or the applicable additional 
+terms, you may contact Dr. Nancy Green at the University of North
+Carolina at Greensboro.
+
+
+
+
+
+
+             
+             
+===========================================================================
+-->
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="superAnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.SchemePaneController">
+    <children>
+        <Accordion fx:id="schemeAccordian">
+            <panes>
+                <TitledPane id="x1" fx:id="superTitledPane" animated="false" onDragDetected="#dragDetected" onDragDone="#dragDone" onMouseReleased="#expandScheme" text="ArgumentScheme">
+                    <content>
+                        <AnchorPane fx:id="childAnchorPane">
+                            <children>
+                                <VBox fx:id="dataVBox" layoutX="20.0" layoutY="17.0" prefWidth="288.0" AnchorPane.leftAnchor="0.0">
+                                    <children>
+                                        <TextArea fx:id="premiseLabel" text="Label" prefWidth="288.0" prefHeight="500.0">
+                                        </TextArea>
+                                        <TitledPane fx:id="criticalQuestionsTitledPane" animated="false" onMouseReleased="#expandCQs" prefWidth="288.0" text="Critical Questions">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                            <content>
+                                            <TextArea fx:id="criticalQuestionLabel" text="Label" prefWidth="288.0" prefHeight="500.0">
+                                            </TextArea>
+                                            </content>
+                                        </TitledPane>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </TitledPane>
+            </panes>
+        </Accordion>
+    </children>
+</AnchorPane>

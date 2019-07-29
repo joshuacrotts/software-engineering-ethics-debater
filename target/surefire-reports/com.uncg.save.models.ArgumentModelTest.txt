@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.uncg.save.models.ArgumentModelTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 22, Time elapsed: 0.001 sec - in com.uncg.save.models.ArgumentModelTest

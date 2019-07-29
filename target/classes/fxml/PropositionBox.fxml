@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===========================================================================
+                        Software Engineering Ethics Debater (SWED) Source Code
+                           Copyright (C) 2019 Nancy Green
+
+Software Engineering Ethics Debater (SWED) is free software: you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SWED Source Code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SWED Source Code.  If not, see <http://www.gnu.org/licenses/>.
+
+If you have questions concerning this license or the applicable additional 
+terms, you may contact Dr. Nancy Green at the University of North
+Carolina at Greensboro.
+
+
+
+
+
+
+             
+             
+===========================================================================
+-->
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="mainGridPane" alignment="TOP_CENTER" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#dragDetected" onDragDone="#dragDone" prefHeight="145.0" prefWidth="325.0" GridPane.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.PropositionBoxController">
+    <children>
+        <TextArea fx:id="text" editable="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#updateText" prefHeight="145.0" prefWidth="325.0" wrapText="true" GridPane.hgrow="NEVER" GridPane.vgrow="ALWAYS">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextArea>
+        <Button fx:id="minimizeButton" visible = "true" onAction="#toggleMinimize" alignment="TOP_RIGHT" mnemonicParsing="false" prefWidth="5.0" prefHeight="5.0" text="-" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+    </children>
+</GridPane>
