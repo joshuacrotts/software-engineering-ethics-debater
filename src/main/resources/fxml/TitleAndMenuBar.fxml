@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===========================================================================
+                        Software Engineering Ethics Debater (SWED) Source Code
+                           Copyright (C) 2019 Nancy Green
+
+Software Engineering Ethics Debater (SWED) is free software: you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SWED Source Code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SWED Source Code.  If not, see <http://www.gnu.org/licenses/>.
+
+If you have questions concerning this license or the applicable additional 
+terms, you may contact Dr. Nancy Green at the University of North
+Carolina at Greensboro.
+
+
+
+
+
+
+             
+             
+===========================================================================
+-->
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox alignment="TOP_LEFT" styleClass="menu-bar" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uncg.save.controllers.TitleAndMenuBarController">
+    <children>
+        <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="960.0">
+            <menus>
+                <Menu fx:id="loadMenu" mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#openArgumentScheme" text="Open (Ctrl+O)" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveArgumentScheme" text="Save" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveArgumentScheme" text="Save-As (Ctrl+S)" />
+                        <MenuItem mnemonicParsing="false" onAction="#printArgumentScheme" text="Print (Ctrl+P)" />
+                        <MenuItem mnemonicParsing="false" onAction="#toggleFullScreen" text="Disable Full Screen (F11)" />
+                        <MenuItem mnemonicParsing="false" onAction="#closeProgram" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu fx:id="casesMenu" mnemonicParsing="false" text="Cases">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadCaseStudy" text="Open Case File (Ctrl+R)" />
+                    </items>
+                </Menu>
+                <Menu fx:id="toolsMenu" mnemonicParsing="false" text="Diagram">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#undoAction" text="Undo (Ctrl+Z)" />
+                        <MenuItem mnemonicParsing="false" onAction="#clearDiagram" text="Clear (Ctrl+Alt+X)" />
+                        <MenuItem mnemonicParsing="false" onAction="#feedback" text="Feedback" disable="true" />
+                        <MenuItem mnemonicParsing="false" onAction="#summary" text="Summary" disable="true" />
+                    </items>
+                </Menu>
+                <Menu fx:id="argumentsMenu" mnemonicParsing="false" text="Arguments">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadArgumentSchemeData" userData="0" text="Load Schemes (Ctrl+D)" />
+						<MenuItem mnemonicParsing="false" disable="true" onAction="#replaceArgumentSchemeData" userData="1" text="Replace Schemes" />
+                    </items>
+                </Menu>
+                <Menu fx:id="ethicsMenu" mnemonicParsing="false" text="Ethics">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadEthics" text="Open Ethics File (Ctrl+E)" />
+                    </items>
+                </Menu>
+                <Menu fx:id="tutorialMenu" mnemonicParsing="false" text="Tutorial">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showTutorial" text="View Tutorial (Ctrl+T)" />
+                    </items>
+                </Menu>
+		<Menu fx:id="helpMenu" mnemonicParsing="false" text="Help">
+                    <items>
+			<MenuItem mnemonicParsing="false" onAction="#loadHelpPDF" text="Open Help" />
+                    </items>
+		</Menu>
+            </menus>
+        </MenuBar>
+        <Label fx:id="windowTitle" prefWidth="960.0" text="SWED - Software Engineering Ethics Debater">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </children>
+</HBox>

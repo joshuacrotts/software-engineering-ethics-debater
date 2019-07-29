@@ -1,0 +1,104 @@
+
+<!--
+/*
+===========================================================================
+             Software Engineering Ethics Debater (SWED) Argument Schemes
+				  Copyright (C) 2019 Nancy Green
+							
+These are sample argument schemes for use with SWED software in an AI
+Ethics course.
+
+Software Engineering Ethics Debater (SWED) is free software: you can redistribute it and/or 
+modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+SWED Source Code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SWED Source Code.  If not, see <http://www.gnu.org/licenses/>.
+
+If you have questions concerning this license or the applicable additional 
+terms, you may contact Dr. Nancy Green at the University of North
+Carolina at Greensboro.			
+===========================================================================
+*/
+-->
+<schemeList>
+    <argScheme>
+        <title>Defense by Cyberweapon</title>
+        <premises>
+			<premise>
+				<name>Just cause</name>
+				<definition>Describe the reason for using the cyberweapon in terms of self-defense or defense of others.</definition>
+			</premise>
+			<premise>
+				<name>Last resort</name>
+				<definition>Describe how no other actions are available in this case.</definition>
+			</premise>
+			<premise>
+				<name>Ethical criteria</name>
+				<definition>Give the ethical criteria justifying use of the cyberweapon in this case.</definition>
+			</premise>
+        </premises>
+        <conclusion>It is acceptable to some degree to deploy the cyberweapon against the adversary.</conclusion>
+        <CQs>
+			<CQ>Proportionality: Is the harm to the adversary from the cyberweapon proportional to the harm inflicted by the adversary?</CQ>
+			<CQ>Legitimate target: Is the target of the cyberweapon the actual source of harm?</CQ>
+			<CQ>Right intention: Is there an ulterior motive such as commercial gain for using the cyberweapon?</CQ>
+			<CQ>Intrinsically evil: Is use of the cyberweapon inhumane or horrific?</CQ>
+            <CQ>Trust/Transparency: Are the reasons for the cyberweapon’s actions clear?</CQ>
+            <CQ>Control: If the cyberweapon’s actions do not serve the user's goals, can the user intervene to modify its actions or abort its mission?</CQ>
+			<CQ>Reliability:  Is the cyberweapon likely to function as intended under expected conditions of use?</CQ>
+			<CQ>Exceptional conditions: Is the cyberweapon being used under conditions for which it was not designed? </CQ>
+			<CQ>Accountability: Is there a governmental or private organization that can be held accountable for the cyberweapon’s actions?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Accept Negative Consequences</title>
+        <premises>
+            <premise>
+				<name>Negative consequences</name>
+				<definition>Give the likely negative consequences of the action.</definition>
+			</premise>
+            <premise>
+				<name>Ethical criteria</name>
+				<definition>Give the ethical criteria for the acceptability of the action in spite of the negative consequences.</definition>
+			</premise>
+			<premise>
+				<name>Mitigating Factor</name>
+				<definition>Explain why the degree or risk of harm from these consequences is within acceptable limits.</definition>
+			</premise>
+        </premises>
+        <conclusion>The action is acceptable to some degree.</conclusion>
+        <CQs>
+			<CQ>Risk: Is the risk of these negative consequences unacceptably high?</CQ>
+			<CQ>Degree of harm:  Is the degree of harm from these negative consequences unacceptably high?</CQ>
+        </CQs>
+    </argScheme>
+    <argScheme>
+        <title>Reject Negative Consequences</title>
+        <premises>
+            <premise>
+				<name>Negative consequences</name>
+				<definition>Give the likely negative consequences of the action.</definition>
+			</premise>
+			<premise>
+				<name>Ethical criteria</name>
+				<definition>Give the ethical criteria for the non-acceptability of the action due to the negative consequences.</definition>
+			</premise>
+			<premise>
+				<name>Non-acceptability Factor</name>
+				<definition>Explain why the degree or risk of harm from these consequences is not within acceptable limits.</definition>
+			</premise>
+        </premises>
+        <conclusion>The action is not acceptable to some degree.</conclusion>
+        <CQs>
+			<CQ>Risk: Is the risk of these negative consequences acceptably low?</CQ>
+			<CQ>Degree of harm:  Is the degree of harm from these negative consequences acceptably low?</CQ>
+        </CQs>
+    </argScheme>
+    </schemeList>
