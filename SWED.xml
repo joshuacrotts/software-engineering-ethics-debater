@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>C:\Users\Joshua\Desktop\Ethics\target\SWED-1.0.jar</jar>
-  <outfile>C:\Users\Joshua\Desktop\Ethics\SWED.exe</outfile>
+  <outfile>C:\Users\Joshua\Desktop\Ethics\swed_release\SWED.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -18,7 +18,7 @@
     <path>C:\Program Files\Amazon Corretto\jre8</path>
     <bundledJre64Bit>true</bundledJre64Bit>
     <bundledJreAsFallback>false</bundledJreAsFallback>
-    <minVersion></minVersion>
+    <minVersion>1.0.1</minVersion>
     <maxVersion></maxVersion>
     <jdkPreference>preferJre</jdkPreference>
     <runtimeBits>64/32</runtimeBits>
