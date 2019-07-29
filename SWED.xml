@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\Joshua\Desktop\Files\Programming\SWED\target\SWED-1.0.jar</jar>
-  <outfile>C:\Users\Joshua\Desktop\Files\Programming\SWED\Software Engineering Ethics Debater.exe</outfile>
+  <jar>C:\Users\Joshua\Desktop\Ethics\target\SWED-1.0.jar</jar>
+  <outfile>C:\Users\Joshua\Desktop\Ethics\SWED.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -13,12 +13,12 @@
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon>C:\Users\Joshua\Desktop\Files\Programming\SWED\src\main\resources\images\SWED_icon.ico</icon>
+  <icon>C:\Users\Joshua\Desktop\Ethics\src\main\resources\images\swed_icon.ico</icon>
   <jre>
     <path>C:\Program Files\Amazon Corretto\jre8</path>
-    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJre64Bit>true</bundledJre64Bit>
     <bundledJreAsFallback>false</bundledJreAsFallback>
-    <minVersion>1.0.1</minVersion>
+    <minVersion></minVersion>
     <maxVersion></maxVersion>
     <jdkPreference>preferJre</jdkPreference>
     <runtimeBits>64/32</runtimeBits>
