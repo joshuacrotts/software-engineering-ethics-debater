@@ -44,7 +44,7 @@ Carolina at Greensboro.
 				<definition>Give the ethical criteria justifying use of the cyberweapon in this case.</definition>
 			</premise>
         </premises>
-        <conclusion>It is acceptable to some degree to deploy the cyberweapon against the adversary.</conclusion>
+        <conclusion>It is ethically acceptable (to some degree) to deploy the cyberweapon against the adversary.</conclusion>
         <CQs>
 			<CQ>Proportionality: Is the harm to the adversary from the cyberweapon proportional to the harm inflicted by the adversary?</CQ>
 			<CQ>Legitimate target: Is the target of the cyberweapon the actual source of harm?</CQ>
@@ -57,48 +57,5 @@ Carolina at Greensboro.
 			<CQ>Accountability: Is there a governmental or private organization that can be held accountable for the cyberweapon’s actions?</CQ>
         </CQs>
     </argScheme>
-    <argScheme>
-        <title>Accept Negative Consequences</title>
-        <premises>
-            <premise>
-				<name>Negative consequences</name>
-				<definition>Give the likely negative consequences of the action.</definition>
-			</premise>
-            <premise>
-				<name>Ethical criteria</name>
-				<definition>Give the ethical criteria for the acceptability of the action in spite of the negative consequences.</definition>
-			</premise>
-			<premise>
-				<name>Mitigating Factor</name>
-				<definition>Explain why the degree or risk of harm from these consequences is within acceptable limits.</definition>
-			</premise>
-        </premises>
-        <conclusion>The action is acceptable to some degree.</conclusion>
-        <CQs>
-			<CQ>Risk: Is the risk of these negative consequences unacceptably high?</CQ>
-			<CQ>Degree of harm:  Is the degree of harm from these negative consequences unacceptably high?</CQ>
-        </CQs>
-    </argScheme>
-    <argScheme>
-        <title>Reject Negative Consequences</title>
-        <premises>
-            <premise>
-				<name>Negative consequences</name>
-				<definition>Give the likely negative consequences of the action.</definition>
-			</premise>
-			<premise>
-				<name>Ethical criteria</name>
-				<definition>Give the ethical criteria for the non-acceptability of the action due to the negative consequences.</definition>
-			</premise>
-			<premise>
-				<name>Non-acceptability Factor</name>
-				<definition>Explain why the degree or risk of harm from these consequences is not within acceptable limits.</definition>
-			</premise>
-        </premises>
-        <conclusion>The action is not acceptable to some degree.</conclusion>
-        <CQs>
-			<CQ>Risk: Is the risk of these negative consequences acceptably low?</CQ>
-			<CQ>Degree of harm:  Is the degree of harm from these negative consequences acceptably low?</CQ>
-        </CQs>
-    </argScheme>
-    </schemeList>
+    
+</schemeList>

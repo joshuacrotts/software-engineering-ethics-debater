@@ -1,16 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
 <ethics>
-	<title>ACM Code of Ethics and Professional Conduct </title>
-	
-	<section> 
-		<sectiontitle>Preamble</sectiontitle>
-		<paragraph>Computing professionals' actions change the world. To act responsibly, they should reflect upon the wider impacts of their work, consistently supporting the public good. The ACM Code of Ethics and Professional Conduct ("the Code") expresses the conscience of the profession. </paragraph>
-		<paragraph>The Code is designed to inspire and guide the ethical conduct of all computing professionals, including current and aspiring practitioners, instructors, students, influencers, and anyone who uses computing technology in an impactful way. Additionally, the Code serves as a basis for remediation when violations occur. The Code includes principles formulated as statements of responsibility, based on the understanding that the public good is always the primary consideration. Each principle is supplemented by guidelines, which provide explanations to assist computing professionals in understanding and applying the principle.</paragraph>
-		<paragraph>Section 1 outlines fundamental ethical principles that form the basis for the remainder of the Code. Section 2 addresses additional, more specific considerations of professional responsibility. Section 3 guides individuals who have a leadership role, whether in the workplace or in a volunteer professional capacity. Commitment to ethical conduct is required of every ACM member, and principles involving compliance with the Code are given in Section 4. </paragraph>
-		<paragraph>The Code as a whole is concerned with how fundamental ethical principles apply to a computing professional's conduct. The Code is not an algorithm for solving ethical problems; rather it serves as a basis for ethical decision-making. When thinking through a particular issue, a computing professional may find that multiple principles should be taken into account, and that different principles will have different relevance to the issue. Questions related to these kinds of issues can best be answered by thoughtful consideration of the fundamental ethical principles, understanding that the public good is the paragraphmount consideration. The entire computing profession benefits when the ethical decision-making process is accountable to and transparent to all stakeholders. Open discussions about ethical issues promote this accountability and transparency. </paragraph>
-	</section>
+	<title>ACM Code of Ethics and Professional Conduct (Abridged)&#xA;&#xD;&#xA;&#xD;</title>
 	
 	<section>
 		<sectiontitle>General Ethical Principles</sectiontitle>
+		<paragraph></paragraph>
 		<paragraph>1.1 Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing. </paragraph>
 		<paragraph>This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them. This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy. An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy. When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority. </paragraph>
 		<paragraph>Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible. They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good. </paragraph>
@@ -41,6 +36,7 @@
 	
 	<section>
 		<sectiontitle>Professional Responsibilities</sectiontitle>
+		<paragraph></paragraph>
 		<paragraph>2.1 Strive to achieve high quality in both the processes and products of professional work.</paragraph>
 		<paragraph>Computing professionals should insist on and support high quality work from themselves and from colleagues. The dignity of employers, employees, colleagues, clients, users, and anyone else affected either directly or indirectly by the work should be respected throughout the process. Computing professionals should respect the right of those involved to transparent communication about the project. Professionals should be cognizant of any serious negative consequences affecting any stakeholder that may result from poor quality work and should resist inducements to neglect this responsibility.</paragraph>
 		<paragraph>2.2 Maintain high standards of professional competence, conduct, and ethical practice.</paragraph>
@@ -62,32 +58,9 @@
 		<paragraph>To ensure the system achieves its intended purpose, security features should be designed to be as intuitive and easy to use as possible. Computing professionals should discourage security precautions that are too confusing, are situationally inappropriate, or otherwise inhibit legitimate use.</paragraph>
 		<paragraph>In cases where misuse or harm are predictable or unavoidable, the best option may be to not implement the system.</paragraph>
 	</section>
-		
+			
 	<section>
-		<sectiontitle>Professional Leadership Principles</sectiontitle>
-		<paragraph>Leadership may either be a formal designation or arise informally from influence over others. In this section, "leader" means any member of an organization or group who has influence, educational responsibilities, or managerial responsibilities. While these principles apply to all computing professionals, leaders bear a heightened responsibility to uphold and promote them, both within and through their organizations.</paragraph>
-		<paragraph>3.1 Ensure that the public good is the central concern during all professional computing work.</paragraph>
-		<paragraph>People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing. The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal. Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.</paragraph>
-		<paragraph>3.2 Articulate, encourage acceptance of, and evaluate fulfillment of social responsibilities by members of the organization or group.</paragraph>
-		<paragraph>Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities. Organizations—through procedures and attitudes oriented toward quality, transparency, and the welfare of society—reduce harm to the public and raise awareness of the influence of technology in our lives. Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.</paragraph>
-		<paragraph>3.3 Manage personnel and resources to enhance the quality of working life.</paragraph>
-		<paragraph>Leaders should ensure that they enhance, not degrade, the quality of working life. Leaders should consider the personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers. Appropriate human-computer ergonomic standards should be used in the workplace.</paragraph>
-		<paragraph>3.4 Articulate, apply, and support policies and processes that reflect the principles of the Code.</paragraph>
-		<paragraph>Leaders should pursue clearly defined organizational policies that are consistent with the Code and effectively communicate them to relevant stakeholders. In addition, leaders should encourage and reward compliance with those policies, and take appropriate action when policies are violated. Designing or implementing processes that deliberately or negligently violate, or tend to enable the violation of, the Code's principles is ethically unacceptable.</paragraph>
-		<paragraph>3.5 Create opportunities for members of the organization or group to grow as professionals.</paragraph>
-		<paragraph>Educational opportunities are essential for all organization and group members. Leaders should ensure that opportunities are available to computing professionals to help them improve their knowledge and skills in professionalism, in the practice of ethics, and in their technical specialties. These opportunities should include experiences that familiarize computing professionals with the consequences and limitations of particular types of systems. Computing professionals should be fully aware of the dangers of oversimplified approaches, the improbability of anticipating every possible operating condition, the inevitability of software errors, the interactions of systems and their contexts, and other issues related to the complexity of their profession—and thus be confident in taking on responsibilities for the work that they do.</paragraph>
-		<paragraph>3.6 Use care when modifying or retiring systems.</paragraph>
-		<paragraph>Interface changes, the removal of features, and even software updates have an impact on the productivity of users and the quality of their work. Leaders should take care when changing or discontinuing support for system features on which people still depend. Leaders should thoroughly investigate viable alternatives to removing support for a legacy system. If these alternatives are unacceptably risky or impractical, the developer should assist stakeholders' graceful migration from the system to an alternative. Users should be notified of the risks of continued use of the unsupported system long before support ends. Computing professionals should assist system users in monitoring the operational viability of their computing systems, and help them understand that timely replacement of inappropriate or outdated features or entire systems may be needed.</paragraph>
-		<paragraph>3.7 Recognize and take special care of systems that become integrated into the infrastructure of society.</paragraph>
-		<paragraph>Even the simplest computer systems have the potential to impact all aspects of society when integrated with everyday activities such as commerce, travel, government, healthcare, and education. When organizations and groups develop systems that become an important part of the infrastructure of society, their leaders have an added responsibility to be good stewards of these systems. Part of that stewardship requires establishing policies for fair system access, including for those who may have been excluded. That stewardship also requires that computing professionals monitor the level of integration of their systems into the infrastructure of society. As the level of adoption changes, the ethical responsibilities of the organization or group are likely to change as well. Continual monitoring of how society is using a system will allow the organization or group to remain consistent with their ethical obligations outlined in the Code. When appropriate standards of care do not exist, computing professionals have a duty to ensure they are developed.</paragraph>
-	</section>
-	
-	<section>
-		<sectiontitle>Compliance With The Code</sectiontitle>
-		<paragraph>4.1 Uphold, promote, and respect the principles of the Code.</paragraph>
-		<paragraph>The future of computing depends on both technical and ethical excellence. Computing professionals should adhere to the principles of the Code and contribute to improving them. Computing professionals who recognize breaches of the Code should take actions to resolve the ethical issues they recognize, including, when reasonable, expressing their concern to the person or persons thought to be violating the Code.</paragraph>
-		<paragraph>4.2 Treat violations of the Code as inconsistent with membership in the ACM.</paragraph>
-		<paragraph>Each ACM member should encourage and support adherence by all computing professionals regardless of ACM membership. ACM members who recognize a breach of the Code should consider reporting the violation to the ACM, which may result in remedial action as specified in the ACM's Code of Ethics and Professional Conduct Enforcement Policy.</paragraph>
-	</section>
+		<sectiontitle></sectiontitle>
+		<paragraph>Copyright (c) 2018 by the Association for Computing Machinery.</paragraph></section>
 </ethics>
 	
