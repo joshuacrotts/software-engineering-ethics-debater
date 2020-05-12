@@ -3,6 +3,11 @@
 
 SWED (Software Engineering Ethics Debater) is an educational argument diagramming tool for the domain of software engineering ethics. SWED provides a set of argument schemes as cognitive building blocks for constructing argument diagrams in this domain.  SWED’s user interface and argument schemes were designed by Dr. Nancy Green, University of North Carolina Greensboro.  SWED is the follow-on to her previous work on [AVIZE](https://github.com/greennl/AVIZE).  SWED was implemented by [Larry Joshua Crotts](https://www.github.com/JoshuaCrotts), a UNCG computer science undergraduate, who refactored AVIZE.
 
+AIED (Artificial Intelligence Ethics Debater) is a version of SWED used in a pilot study in Fall 2019 to test the use of SWED for teaching AI Ethics.  To reproduce the pilot study, the following files have been included in this release:
+ - Cases XMLs:  CyBomberCaseStudy.xml, modified-ACM-Malware-caseStudy-with-attribution.xml
+ - Scheme XMLs: pilot-schemelist.xml
+ - Ethics XMLs: acmethics-abridged-with-copyright.xml
+
 ## Running SWED
 To run SWED with default argument schemes, simply download the latest release from the swed_release/ folder. A direct link to the executable (Windows) is located [here], whereas the executable JAR file (Windows, MacOS, Linux) is here. Within the swed_release/ folder, there are three subfolders: 
 
@@ -18,11 +23,11 @@ If you wish to utilize your own custom argument schemes, add the schemes in an x
 
 #### Custom Case Studies
 
-If you wish to utilize your own custom case studies, add the cases in an xml file to the cases_xmls in your working directory.
+If you wish to utilize your own custom case studies, add the cases in an xml file to the /cases_xmls/ in your working directory.
 
 #### Ethics Resources
 
-If you wish to utilize your own ethics resources, add the cases in an xml file to ethics_xmls your working directory.
+If you wish to utilize your own ethics resources, add the cases in an xml file to /ethics_xmls/ in your working directory.
 
 ## Usage
 
