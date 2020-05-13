@@ -7,6 +7,8 @@ AIED (Artificial Intelligence Ethics Debater) is a version of SWED used in a pil
  - Cases XMLs:  CyBomberCaseStudy.xml, modified-ACM-Malware-caseStudy-with-attribution.xml
  - Scheme XMLs: pilot-schemelist.xml
  - Ethics XMLs: acmethics-abridged-with-copyright.xml
+ - Tutorial: https://www.youtube.com/watch?v=OiTAO16_OUA
+ - Help: help-introduction-AIED.pdf
 
 ## Running SWED
 To run SWED with default argument schemes, simply download the latest release from the swed_release/ folder. A direct link to the executable (Windows) is located [here], whereas the executable JAR file (Windows, MacOS, Linux) is here. Within the swed_release/ folder, there are three subfolders: 
