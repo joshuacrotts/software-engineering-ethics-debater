@@ -1,5 +1,9 @@
 
-# SWED - Software Engineering Ethics Debater
+<h1 align="center">SWED - Software Engineering Ethics Debater</center>
+
+<p align="center">
+  <img width="460" height="300" src="swed.gif">
+</p>
 
 SWED (Software Engineering Ethics Debater) is an educational argument diagramming tool for the domain of software engineering ethics. SWED provides a set of argument schemes as cognitive building blocks for constructing argument diagrams in this domain.  SWED’s user interface and argument schemes were designed by Dr. Nancy Green, University of North Carolina Greensboro.  SWED is the follow-on to her previous work on [AVIZE](https://github.com/greennl/AVIZE).  SWED was implemented by [Larry Joshua Crotts](https://www.github.com/JoshuaCrotts), a UNCG computer science undergraduate, who refactored AVIZE.
 
