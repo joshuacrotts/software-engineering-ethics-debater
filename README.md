@@ -1,5 +1,5 @@
 
-<h1 align="center">SWED - Software Engineering Ethics Debater</center>
+<h1 align="center">SWED - Software Engineering Ethics Debater</h1>
 
 <p align="center">
   <img width="460" height="300" src="swed.gif">
